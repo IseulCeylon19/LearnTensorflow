@@ -1,1 +1,1 @@
-pypy -m virtualenv --copies ".venv"
+python -m virtualenv --copies ".venv"
