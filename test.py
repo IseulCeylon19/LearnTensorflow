@@ -1,3 +1,3 @@
 import tensorflow as tf  # now import the tensorflow module
-print(tf.version)  # make sure the version is 2.x
+# print(tf.version)  # make sure the version is 2.x
 print(tf.__version__)  # print the version of TensorFlow
