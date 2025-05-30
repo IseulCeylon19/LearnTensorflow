@@ -1,0 +1,34 @@
+ TensorFlow 2.10 was the last TensorFlow release that supported GPU on native-Windows. Starting with TensorFlow 2.11,
+ you will need to install TensorFlow in WSL2, or install tensorflow or tensorflow-cpu and, optionally, try the TensorFlow-DirectML-Plugin
+( https://www.tensorflow.org/install/pip#windows-native )
+
+pip install tensorflow==2.10.1
+
+pip uninstall numpy
+pip install numpy==1.26.4
+
+
+===================================================================
+
+For GT 730
+https://developer.nvidia.com/cuda-11-8-0-download-archive
+Install cuda_11.8.0_522.06_windows.exe
+
+To fix, Could not load dynamic library 'cudart64_110.dll'
+add PATH C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin;
+
+
+https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/windows-x86_64/
+download and extract cudnn-windows-x86_64-8.9.7.29_cuda11-archive.zip
+
+To fix, Could not load dynamic library 'cudnn64_8.dll'
+add PATH C:\cudnn-windows-x86_64-8.9.7.29_cuda11\bin
+
+
+Run to test
+python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+
+===================================================================
+
+pip install jupyterlab
+
