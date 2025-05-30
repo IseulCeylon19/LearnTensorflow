@@ -9,8 +9,11 @@ pip install numpy==1.26.4
 
 
 ===================================================================
+Consult this link for finding SDK verison
+https://en.wikipedia.org/wiki/CUDA
 
-For GT 730
+"""
+For GT 730 and For RTX 4060
 https://developer.nvidia.com/cuda-11-8-0-download-archive
 Install cuda_11.8.0_522.06_windows.exe
 
@@ -23,6 +26,7 @@ download and extract cudnn-windows-x86_64-8.9.7.29_cuda11-archive.zip
 
 To fix, Could not load dynamic library 'cudnn64_8.dll'
 add PATH C:\cudnn-windows-x86_64-8.9.7.29_cuda11\bin
+"""
 
 
 Run to test
