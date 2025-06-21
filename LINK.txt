@@ -1,0 +1,6 @@
+x1.How Deep Neural Networks Work - https://www.youtube.com/watch?v=zvalnHWGtx4
+x2.Recurrent Neural Networks RNN and Long Short Term Memory LSTM - https://www.youtube.com/watch?v=UVimlsy9eW0
+x3.Deep Learning Demystified - https://www.youtube.com/watch?v=bejQ-W9BGJg
+
+
+
